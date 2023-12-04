@@ -1,0 +1,18 @@
+.newFeed {
+    height: 10rem;
+    width: 100%;
+    background-color: #242526;
+}
+.newFeed_Header {
+    display: flex;
+    align-items: center;
+}
+.newFeed_Header > img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.newFeed_Time_Post {
+    display: flex;
+    align-items: center;
+}
