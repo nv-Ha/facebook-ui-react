@@ -1,8 +1,10 @@
 .Content {
-    width: 50%;
+    width: 45%;
     height: 500px;
     background-color: transparent;
-    margin-top: 1rem;
+    margin: auto;
+    margin-top: 5.5rem;
+    position: relative;
 }
 .Content_User_Post {
     width: 100%;

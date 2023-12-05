@@ -3,6 +3,7 @@
 
 .homePage_Content {
     display: flex;
-    width: 90rem;
+    width: 100rem;
     margin: auto;
+    position: relative;
 }

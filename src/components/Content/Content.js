@@ -45,6 +45,8 @@ function Content() {
 
             {/* ----New Feeds---- */}
             <NewFeed />
+            <NewFeed />
+            <NewFeed />
         </div>
     );
 }

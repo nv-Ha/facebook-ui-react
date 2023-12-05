@@ -1,5 +1,83 @@
 .RightBar {
-    width: 25%;
-    height: 500px;
-    background-color: rgb(244, 255, 127);
+    width: 30%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 1rem;
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    margin-right: calc((100% - 100rem) / 2);
+}
+
+.RightBar_list {
+    float: right;
+    right: 0;
+}
+.RightBar_list_Items > p {
+    font-size: 1.2rem;
+    color: #cbcdd2;
+}
+
+.RightBar_list_Items_gift {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.RightBar_list_Items_gift > p {
+    color: #cbcdd2;
+    margin-left: 1rem;
+    letter-spacing: 0.5px;
+}
+.gift_icon {
+    font-size: 1.875rem;
+}
+
+/* //Line */
+.RightBar_line {
+    margin: 0 auto;
+    width: 24rem;
+    height: 1px;
+    background-color: #2b2d2e;
+}
+
+.RightBar_list_Items {
+    margin-top: 1rem;
+}
+.RightBar_list_Items_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RightBar_list_Items_title_Item {
+    font-size: 1.2rem;
+    color: #cbcdd2;
+}
+.RightBar_list_Items_title_Item_Icons_Search {
+    margin-right: 1.5rem;
+}
+
+/* list user online */
+.RightBar_User_Online {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.RightBar_User_Online > img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.RightBar_point_online {
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: rgb(0, 226, 87);
+    border-radius: 50%;
+    margin: 1.8rem 0 0 1.9rem;
+    border: 2px solid #18191a;
+}
+.RightBar_User_Online > p {
+    margin-left: 1rem;
+    letter-spacing: 0.5px;
 }

@@ -1,8 +1,10 @@
 .SideBar {
-    width: 25%;
+    width: 30%;
     height: 500px;
     background-color: transparent;
     margin-top: 0.5rem;
+    position: fixed;
+    top: 4rem;
 }
 
 .SideBarItem {
@@ -11,7 +13,6 @@
 .SideBarItem_list {
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
     font-weight: 600;
     color: white;
     padding: 1rem 0;
@@ -19,7 +20,6 @@
 
 .SideBarItem_list_text {
     margin-left: 0.8rem;
-    font-size: 1.1rem;
 }
 .SideBarItem_list_button {
     width: 1.5rem;
@@ -44,20 +44,18 @@
 }
 .SideBarItem_list_user > p {
     margin-left: 0.8rem;
-    font-size: 1.1rem;
 }
 
 /* ---------------- */
 .line_SideBar {
-    width: 20rem;
+    width: 24rem;
     height: 1px;
     background-color: #2b2d2e;
 }
 .SideBarItem_title {
-    width: 20rem;
+    width: 24rem;
     display: flex;
     justify-content: space-between;
-    font-size: 1.1rem;
     margin-top: 1rem;
     cursor: pointer;
 }
@@ -76,7 +74,6 @@
 .SideBarItem_group {
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
     font-weight: 600;
     color: white;
     padding: 0.75rem 0.75rem 0 0;
@@ -93,5 +90,4 @@
 }
 .SideBarItem_list_group > p {
     margin-left: 0.7rem;
-    font-size: 1.1rem;
 }
