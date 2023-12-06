@@ -3,18 +3,29 @@ import { GlobalTime } from '../../../icons/icons';
 import './NewFeed.css';
 import { faEllipsis, faXmark, faThumbsUp, faComment, faShare } from '@fortawesome/free-solid-svg-icons';
 import Line from '../../lines/line';
+import { useState } from 'react';
 
-function NewFeed() {
+function NewFeed({ post }) {
+    const [like, setLike] = useState(post.like);
+    const [likeValue, setLikeValue] = useState(true);
+
+    const hangdleLike = () => {
+        const LikeResult = likeValue ? like + 1 : like - 1;
+
+        setLike(LikeResult);
+        setLikeValue(!likeValue);
+    };
+
     return (
         <div className="newFeed">
             {/* 1 -left */}
             <div className="newFeed_Header">
                 <div className="newFeed_Header_list">
-                    <img src="https://i.pinimg.com/564x/66/9a/d6/669ad6d0f736a2a28b3ffdbe7251b33d.jpg" alt="" />
+                    <img src={post.profilePicture} alt="" />
                     <span className="newFeed_Header_Items">
-                        <p>La LiSa</p>
+                        <p>{post.username}</p>
                         <span className="newFeed_Time_Post">
-                            <p>1 hour ago</p>
+                            <p>{post.date}</p>
                             <p>•</p>
                             <GlobalTime />
                         </span>
@@ -29,31 +40,35 @@ function NewFeed() {
 
             {/* 2 */}
             <div className="newFeed_text">
-                <p>Love For All, Hatred For None.</p>
+                <p>{post.desc}</p>
             </div>
 
             {/* 3 */}
             <div className="newFeed_image">
-                <img src="assets/persons/person_id_5.jpg" alt=""></img>
+                <img src={post.photo} alt=""></img>
             </div>
 
             {/* 4 */}
             <div className="newFeed_status">
                 <div className="newFeed_status_icons newFeed_status_icons_like">
-                    <img src="assets/like_icon.png" alt=""></img>
+                    <img src="../assets/like_icon.png" alt=""></img>
                 </div>
                 <div className="newFeed_status_icons">
-                    <img src="assets/love_icon.png" alt=""></img>
+                    <img src="../assets/love_icon.png" alt=""></img>
                 </div>
                 <div className="newFeed_status_total">
-                    <p>72</p>
+                    <p>{like}</p>
                 </div>
             </div>
             <Line className="newFeed_line" />
 
             {/* 5 */}
             <div className="newFeed_Action">
-                <div className="newFeed_Action_Item">
+                <div
+                    className="newFeed_Action_Item"
+                    onClick={hangdleLike}
+                    style={{ color: likeValue ? '#CBCDD2' : '#0979FE' }}
+                >
                     <FontAwesomeIcon icon={faThumbsUp} />
                     <p>Like</p>
                 </div>

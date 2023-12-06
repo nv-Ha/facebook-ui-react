@@ -1,6 +1,7 @@
 import './Content.css';
 import Line from '../lines/line';
 import NewFeed from './Feed/NewFeed';
+import { Posts } from '../../data';
 
 function Content() {
     return (
@@ -44,9 +45,9 @@ function Content() {
             </div>
 
             {/* ----New Feeds---- */}
-            <NewFeed />
-            <NewFeed />
-            <NewFeed />
+            {Posts.map((post) => (
+                <NewFeed key={post.id} post={post} />
+            ))}
         </div>
     );
 }

@@ -60,9 +60,11 @@
     padding: 0.8rem 3rem;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .topbar_container_center_icons:hover {
     background-color: #414242;
+    padding: 0.8rem 3rem;
     overflow: hidden;
 }
 

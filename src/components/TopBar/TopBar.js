@@ -11,12 +11,15 @@ import {
 } from '../../icons/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function TopBar() {
     return (
         <div className="topbar_container">
             <div className="topbar_container_left">
-                <FaceBookIcon className="topbar_container_facebook" />
+                <Link to="/">
+                    <FaceBookIcon className="topbar_container_facebook" />
+                </Link>
                 <div>
                     <button className="topbar_container_search_buttom">
                         <FontAwesomeIcon className="topbar_container_search_glass" icon={faMagnifyingGlass} />
@@ -25,10 +28,18 @@ function TopBar() {
                 </div>
             </div>
             <div className="topbar_container_center">
-                <HomeIcon className="topbar_container_center_icons" />
-                <VideoIcon className="topbar_container_center_icons" />
-                <StoreIcon className="topbar_container_center_icons" />
-                <GroupIcon className="topbar_container_center_icons" />
+                <Link to="/">
+                    <HomeIcon className="topbar_container_center_icons" />
+                </Link>
+                <Link to="/">
+                    <VideoIcon className="topbar_container_center_icons" />
+                </Link>
+                <Link to="/">
+                    <StoreIcon className="topbar_container_center_icons" />
+                </Link>
+                <Link to="/">
+                    <GroupIcon className="topbar_container_center_icons" />
+                </Link>
             </div>
             <div className="topbar_container_right">
                 <SelectIcon className="topbar_container_right_icons" />

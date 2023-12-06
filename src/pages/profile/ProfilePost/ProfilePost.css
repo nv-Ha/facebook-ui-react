@@ -1,0 +1,134 @@
+/* NewFeeds user */
+.Profile_NewFeed {
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+}
+
+/* Introduce user -  left */
+.Profile_Introduce {
+    flex: 1;
+}
+/* --Top */
+.Profile_Introduce_Top {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #242526;
+    color: #8c939d;
+    letter-spacing: 0.5px;
+}
+.Profile_Introduce_Title {
+    padding: 1rem;
+    color: #e4e6eb;
+}
+.Profile_Introduce_Top_User {
+    display: flex;
+    align-items: center;
+    padding: 0rem 0 1rem 1rem;
+}
+.Profile_Introduce_Top_User_Icon {
+    filter: brightness(0) invert(1);
+    height: 20px;
+    width: 20px;
+    margin-right: 0.875rem;
+}
+
+/* --Center */
+.Profile_Introduce_Center {
+    width: 100%;
+    height: calc(auto + 2rem);
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #242526;
+}
+.Profile_Introduce_Center_Image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+}
+.Profile_Introduce_Center_Image_Boder {
+    width: 30%;
+    height: 9.5rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0.2rem;
+    border-radius: 5px;
+}
+.Profile_Image_Item {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --Bottom */
+.Profile_Introduce_Bottom {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #242526;
+}
+.Profile_Introduce_Bottom_ListFriend {
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Profile_Introduce_Bottom_father {
+    width: 30%;
+    margin: 0.2rem;
+}
+/* .Profile_Introduce_Bottom_father > p:nth-child(2) {
+} */
+.Profile_Introduce_Bottom_father > p:nth-child(3) {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #8c939d;
+}
+.Profile_Introduce_Bottom_UserName {
+    margin-top: 0.5rem;
+    letter-spacing: 0.5px;
+}
+.Profile_Introduce_Bottom_Boder {
+    width: 100%;
+    height: 9rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0.2rem;
+    border-radius: 5px;
+}
+
+/* --Transprent - Done! */
+.Profile_Introduce_Transprent {
+    flex: 0.04;
+    height: 500px;
+}
+.Profile_Introduce_Friend {
+    display: flex;
+    color: #e4e6eb;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+.Profile_Introduce_Friend > p {
+    padding-right: 0.2rem;
+}
+
+/* --Content Post */
+.Profile_Content {
+    flex: 1.5;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: -1.5rem;
+}

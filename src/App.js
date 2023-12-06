@@ -1,11 +1,16 @@
 import './App.css';
 import HomePage from './pages/home/home';
+import Profile from './pages/profile/profile';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
-        <>
-            <HomePage />
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/profile/:userId" element={<Profile />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
