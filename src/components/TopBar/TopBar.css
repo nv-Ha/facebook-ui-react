@@ -7,7 +7,7 @@
     border-bottom: #3a3b3c 1px solid;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 99;
 }
 .topbar_container_left {
     flex: 1;

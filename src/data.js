@@ -952,7 +952,7 @@ export const Posts = [
                 userId: 8,
                 like: 82,
                 comment: 99,
-                profilePicture: '../assets/persons/person_id_8.jpg',
+                profilePicture: '../assets/persons/person_id_1.jpg',
                 username: 'Safak Kocaoglu',
                 background: '../assets/background/background_8.jpg',
             },
@@ -964,7 +964,7 @@ export const Posts = [
                 userId: 8,
                 like: 70,
                 comment: 89,
-                profilePicture: '../assets/persons/person_id_8.jpg',
+                profilePicture: '../assets/persons/person_id_1.jpg',
                 username: 'Safak Kocaoglu',
             },
             {
@@ -975,7 +975,7 @@ export const Posts = [
                 userId: 8,
                 like: 42,
                 comment: 9,
-                profilePicture: '../assets/persons/person_id_8.jpg',
+                profilePicture: '../assets/persons/person_id_1.jpg',
                 username: 'Safak Kocaoglu',
             },
         ],
@@ -1078,9 +1078,9 @@ export const Posts = [
                 userId: 1,
                 like: 112,
                 comment: 99,
-                profilePicture: '../assets/persons/person_id_9.jpg',
+                profilePicture: '../assets/persons/person_id_2.jpg',
                 username: 'Safak Kocaoglu',
-                background: '../assets/background/background_9.jpg',
+                background: '../assets/background/background_2.jpg',
             },
             {
                 id: 9,
@@ -1090,7 +1090,7 @@ export const Posts = [
                 userId: 9,
                 like: 70,
                 comment: 99,
-                profilePicture: '../assets/persons/person_id_9.jpg',
+                profilePicture: '../assets/persons/person_id_2.jpg',
                 username: 'Safak Kocaoglu',
             },
             {
@@ -1204,7 +1204,7 @@ export const Posts = [
                 comment: 99,
                 profilePicture: '../assets/persons/person_id_10.jpg',
                 username: 'Safak Kocaoglu',
-                background: '../assets/background/background_10.jpg',
+                background: '../assets/background/background_3.jpg',
             },
             {
                 id0: 1,
@@ -1214,7 +1214,7 @@ export const Posts = [
                 userId0: 1,
                 like: 70,
                 comment0: 19,
-                profilePicture: '../assets/persons/person_id_10.jpg',
+                profilePicture: '../assets/persons/person_id_3.jpg',
                 username: 'Safak Kocaoglu',
             },
             {
@@ -1225,53 +1225,9 @@ export const Posts = [
                 userId0: 1,
                 like: 42,
                 comment: 9,
-                profilePicture: '../assets/persons/person_id_10.jpg',
+                profilePicture: '../assets/persons/person_id_3.jpg',
                 username: 'Safak Kocaoglu',
             },
         ],
-    },
-];
-
-export const Group = [
-    {
-        id: 1,
-        img: '',
-        name: '',
-    },
-    {
-        id: 2,
-        img: '',
-        name: '',
-    },
-
-    {
-        id: 3,
-        img: '',
-        name: '',
-    },
-    {
-        id: 4,
-        img: '',
-        name: '',
-    },
-    {
-        id: 5,
-        img: '',
-        name: '',
-    },
-    {
-        id: 6,
-        img: '',
-        name: '',
-    },
-    {
-        id: 7,
-        img: '',
-        name: '',
-    },
-    {
-        id: 8,
-        img: '',
-        name: '',
     },
 ];
